@@ -6,12 +6,18 @@
 .nav {
   margin-left: 10%;
   margin-right: 10%;
-}
-.brand {
-  color: #fbd265;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
 }
 
-.nav__titles {
+.brand {
+  color: #fbd265;
+  margin-right: 20%;
+}
+
+.nav-item {
   color: #e5cef4;
 }
 .section__1__btn,
